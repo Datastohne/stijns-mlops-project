@@ -9,7 +9,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./stijns_mlops_project/
+    working-directory:
 
 env:
   STAGING_WORKSPACE_TOKEN: ${{ secrets.STAGING_WORKSPACE_TOKEN }}
